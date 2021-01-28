@@ -1,0 +1,25 @@
+/** MENU **/
+
+.menu-principal-container ul, .menu-secondaire-container ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-principal-container ul li
+{
+    width: 33.33%;
+}
+
+.menu-secondaire-container ul li {
+    width: 50%;
+}
+
+.menu-principal-container ul li a,
+.menu-secondaire-container ul li a {
+    display: block;
+    text-align: center;
+}
+
+#menu-item-23 a img {
+    width: 100px;
+}

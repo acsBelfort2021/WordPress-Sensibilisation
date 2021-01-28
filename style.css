@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*** MON CSS ***/
+
+
+/*** FLUID TYPOGRAPHY ***/
+
+h1 {
+    font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h2 {
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+h3 {
+    font-size: calc(19px + (27 - 19) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/*** GENERAL ***/
+
+h1 {
+    margin-top: 15px;
+}
+
+h1, h2, h3, .menu-principal-container ul li a {
+    font-family: 'Potta One',
+    serif;
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+/*** DISPLAY CHARACTERS ***/
+
+.character {
+    position: relative;
+}
+
+.character h3 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/*** FRONT-PAGE ***/
+
+#front-page h2 {
+    margin: 15px 0;
+}
+
+.intro p {
+    margin: 25px 0;
+    line-height: 135%;
+}
+
+/*** PAGE SINGLE ***/
+
+.single img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
